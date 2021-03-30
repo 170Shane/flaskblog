@@ -21,4 +21,4 @@ class LoginForm(FlaskForm):
     # include a Remember Me field
     remember_me = BooleanField('Remember Me?')
     # also need a Submit button
-    submit = SubmitField('Sign Up!')
+    submit = SubmitField('Log In')
